@@ -1,0 +1,25 @@
+{
+    "appName" : "DQuark File Explorer",
+    "version" : "1.0",
+    "ide" : "Visual Studio Code",
+    "Description" : "Frontend Pseudo File Explorer",
+    "Functions" : [
+        {"Indented Access" : "Folder list in tree"},
+        {"New Folder" : "Add new folder"},
+        {"Rename Folder" : "Rename the folder"},
+        {"Delete Folder" : "Move To Trash"},
+        {"Trash" : "Restore or Remove"},
+        {"Mouse" : "Mouse Functionality and right click features"},
+        {"Keyboard" : "Keyboard scroll"}
+    ]
+    {
+        "viewManager" : [
+            {
+                "Date Modified" : "", 
+                "File Size" : "",
+                "File Type" : "",
+                "Author" : ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE>
+<html lang = "en">
+    <head>
+        <title>DQuark File Explorer</title>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        
+    </head>
+    
+    <body>
+        <div class="header">
+            <img id= "headerIcon" src="http://hackathon-in-a-box.org/img/box.png" alt="Image of a Box" width="80" height="80">
+            <h1 id="titleTag"> DQuark File Explorer </h1>
+        </div>
+        <div class="loginBar">
+            <p id="loginUser">DQuark </p>
+        </div>
+        <div class="quickAccessSearch">
+            <form id="quickAccess" action="">
+                <input type="radio" name="quickAccessRadio">
+            </form>
+            <form id="searchTab" action="">
+                <input type="text" name="searchTabInput" value="Type to Search">
+            </form>
+        </div>
+        <div class="viewStyle"></div>        
+        <div class="fileExBody">
+            <div class="indexRef">
+                <button class="accordion">Game</button>
+                <div class="panel">
+                    <button class="accordion">Fornite</button>
+                    <div class="panel">
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>                    
+                    </div>
+                    
+                    <button class="accordion">Pubg</button>
+                    <div class="panel">
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>                    
+                    </div>
+                    <button class="accordion">Counter Strike</button>
+                    <div class="panel">
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>
+                        <button class="accordion">Fornite</button>                    
+                    </div>
+                    <button class="accordion">djudhjs</button>
+                    <button class="accordion">Need For Speed</button>
+                    
+                </div>
+                <button class="accordion">Folder 2</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+                <button class="accordion">Folder 3</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>        
+            <div class="folderExplorer">
+                <div class="folderIcon">
+                    <button type="button" onclick="loadDoc"> <img  src="http://pngimg.com/uploads/folder/folder_PNG8773.png" alt="Folder icon" width="78.25" height="78.25"></button>
+                </div>
+                <div class="folderIcon">
+                    <button type="button" onclick="loadDoc"> <img  src="http://pngimg.com/uploads/folder/folder_PNG8773.png" alt="Folder icon" width="78.25" height="78.25"></button>
+                </div>
+                <div class="folderIcon">
+                    <button type="button" onclick="loadDoc"> <img  src="http://pngimg.com/uploads/folder/folder_PNG8773.png" alt="Folder icon" width="78.25" height="78.25"></button>
+                </div>
+                <div id="demo"></div>
+            </div>
+        </div>
+        <div class="statusBar"></div>
+       
+    </body>  
+</html> 
